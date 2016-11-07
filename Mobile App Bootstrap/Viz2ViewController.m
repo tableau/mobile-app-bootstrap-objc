@@ -17,11 +17,16 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 	
-	NSURL *url = [NSURL URLWithString:@"https://public.tableau.com/views/10_0ClinicAnalytics/ClinicAnalytics?:embed=y&:tooltip=n&:toolbar=n&:showVizHome=no"];
-    
     webViewDelegate = [[WebViewDelegate alloc] init];
     self.webView.delegate = webViewDelegate;
-   
+
+    [self loadVizWebView];
+}
+
+- (void) loadVizWebView {
+
+    NSURL *url = [NSURL URLWithString:@"https://public.tableau.com/views/10_0ClinicAnalytics/ClinicAnalytics?:embed=y&:tooltip=n&:toolbar=n&:showVizHome=no"];
+
     [self.webView loadRequest:[NSURLRequest requestWithURL: url]];
 }
 

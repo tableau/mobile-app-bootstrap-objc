@@ -14,17 +14,19 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 	
-    // Load index.html from the www directory.
-	NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"index" ofType:@"html" inDirectory:@"www"]];
-	
-    [self.webView loadRequest:[NSURLRequest requestWithURL:url]];
+    [self loadHomeWebView];
 }
 
+- (void)loadHomeWebView {
+    // Load index.html from the www directory.
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"index" ofType:@"html" inDirectory:@"www"]];
+
+    [self.webView loadRequest:[NSURLRequest requestWithURL:url]];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 
 @end

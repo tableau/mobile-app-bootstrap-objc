@@ -15,6 +15,7 @@
 		38113C8B1DBD85D200E4E996 /* TableauOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 38113C8A1DBD85D200E4E996 /* TableauOAuth.m */; };
 		38113C8F1DBD880E00E4E996 /* TokenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 38113C8E1DBD880E00E4E996 /* TokenManager.m */; };
 		38113C921DBD8F5E00E4E996 /* WebViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38113C911DBD8F5E00E4E996 /* WebViewDelegate.m */; };
+		A0CADDF91DD0E2B200374E20 /* TabDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CADDF81DD0E2B200374E20 /* TabDelegate.m */; };
 		C9694B021DB98B4B00DDCF0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9694B011DB98B4B00DDCF0C /* main.m */; };
 		C9694B051DB98B4B00DDCF0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9694B041DB98B4B00DDCF0C /* AppDelegate.m */; };
 		C9694B0E1DB98B4B00DDCF0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9694B0C1DB98B4B00DDCF0C /* Main.storyboard */; };
@@ -38,6 +39,8 @@
 		38113C8E1DBD880E00E4E996 /* TokenManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TokenManager.m; sourceTree = "<group>"; };
 		38113C901DBD8F5E00E4E996 /* WebViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewDelegate.h; sourceTree = "<group>"; };
 		38113C911DBD8F5E00E4E996 /* WebViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewDelegate.m; sourceTree = "<group>"; };
+		A0CADDF81DD0E2B200374E20 /* TabDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabDelegate.m; sourceTree = "<group>"; };
+		A0CADDFC1DD0E33600374E20 /* TabDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabDelegate.h; sourceTree = "<group>"; };
 		C9694AFD1DB98B4B00DDCF0C /* Mobile App Bootstrap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobile App Bootstrap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9694B011DB98B4B00DDCF0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C9694B031DB98B4B00DDCF0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				38113C651DBD5BDF00E4E996 /* Viz3ViewController.m */,
 				38113C901DBD8F5E00E4E996 /* WebViewDelegate.h */,
 				38113C911DBD8F5E00E4E996 /* WebViewDelegate.m */,
+				A0CADDFC1DD0E33600374E20 /* TabDelegate.h */,
+				A0CADDF81DD0E2B200374E20 /* TabDelegate.m */,
 			);
 			path = "Mobile App Bootstrap";
 			sourceTree = "<group>";
@@ -208,6 +213,7 @@
 				38113C8F1DBD880E00E4E996 /* TokenManager.m in Sources */,
 				C9694B021DB98B4B00DDCF0C /* main.m in Sources */,
 				38113C8B1DBD85D200E4E996 /* TableauOAuth.m in Sources */,
+				A0CADDF91DD0E2B200374E20 /* TabDelegate.m in Sources */,
 				38113C921DBD8F5E00E4E996 /* WebViewDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

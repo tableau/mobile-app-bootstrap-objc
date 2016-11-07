@@ -12,4 +12,6 @@
 
 @property (strong, nonatomic) IBOutlet UIWebView *webView;
 
+- (void)loadHomeWebView;
+
 @end
