@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8CA22A273EE8D57AEFE82B71B69A3C326ED14542",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "661D8C2D4993187619AB991BB9BF051AE8AE6EFD" : 9223372036854775807,
+    "8CA22A273EE8D57AEFE82B71B69A3C326ED14542" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C87B7EFB-1AD6-44FC-B360-F094E8D207BE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "661D8C2D4993187619AB991BB9BF051AE8AE6EFD" : "mobile-app-bootstrap-objc\/samples\/BarcodeScanner\/MTBBarcodeScanner\/",
+    "8CA22A273EE8D57AEFE82B71B69A3C326ED14542" : "mobile-app-bootstrap-objc\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Barcode Scanner",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "samples\/BarcodeScanner\/Barcode Scanner.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mikebuss\/MTBBarcodeScanner.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "661D8C2D4993187619AB991BB9BF051AE8AE6EFD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tableau\/mobile-app-bootstrap-objc.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8CA22A273EE8D57AEFE82B71B69A3C326ED14542"
+    }
+  ]
+}

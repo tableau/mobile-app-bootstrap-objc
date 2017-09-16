@@ -1,0 +1,3 @@
+[submodule "samples/BarcodeScanner/MTBBarcodeScanner"]
+	path = samples/BarcodeScanner/MTBBarcodeScanner
+	url = https://github.com/mikebuss/MTBBarcodeScanner.git
