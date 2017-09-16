@@ -18,11 +18,11 @@ Note: Older versions of git might need `git submodule update --init --recursive`
 This will literally get the app running, but if it's run in a (camera-less) simulator, a dialog will appear about missing a camera.
 
 For added flavor, try:
-3. Print out `sample-barcodes.png` on paper.
-4. In Xcode, choose to run the app on a physical phone/tablet with a camera.
-5. On-device, permit access to the camera via the dialog.
-6. Point the now-scanning camera in the app at one of the barcodes on paper.
-7. Once the scanner detects a barcode, the viz should load, filtered to that barcode.
+1. Print out `sample-barcodes.png` on paper.
+2. In Xcode, choose to run the app on a physical phone/tablet with a camera.
+3. On-device, permit access to the camera via the dialog.
+4. Point the now-scanning camera in the app at one of the barcodes on paper.
+5. Once the scanner detects a barcode, the viz should load, filtered to that barcode.
 
 # Project Layout
 
@@ -52,7 +52,7 @@ The method `parseValidBarCodeFromScannedString` contains some logic to sanity-ch
 
 # Support
 
-This collection is not officially 'blessed' by Tableau Engineering or Support. What does that mean? We didn't have a QA team test it. It's a tool for learning how to embed vizzes inside a mobile application. You should not expect that there are 0 bugs.
+This sample is not officially 'blessed' by Tableau Engineering or Support. What does that mean? We didn't have a QA team test it. It's a tool for learning how to embed vizzes inside a mobile application. You should not expect that there are 0 bugs.
 
 If you have problems getting it to work, feel free to email us with questions, but we can't promise quick responses. The [Tableau Developer Community](developer.tableau.com) is also a great resource if you need help.
 
