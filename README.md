@@ -1,4 +1,5 @@
 # Mobile App Bootstrap: Objective-C preview
+[![Community Supported](https://img.shields.io/badge/Support%20Level-Community%20Supported-457387.svg)](https://www.tableau.com/support-levels-it-and-developer-tools)
 
 Provides an early look at example code for how to embed Tableau vizzes inside of a native iOS app.
 
@@ -65,7 +66,7 @@ In this sample, Sign In happen inside the same viz as the WebView...this might n
 
 # Support
 
-This collection is not officially 'blessed' by Tableau Engineering or Support. What does that mean? We didn't have a QA team test it. It's a tool for learning how to embed vizzes inside a mobile application. You should not expect that there are 0 bugs.
+This collection is supported by the community and not officially 'blessed' by Tableau Engineering or Support. What does that mean? We didn't have a QA team test it. It's a tool for learning how to embed vizzes inside a mobile application. You should not expect that there are 0 bugs.
 
 If you have problems getting it to work, feel free to email us with questions, but we can't promise quick responses. The [Tableau Developer Community](developer.tableau.com) is also a great resource if you need help.
 
