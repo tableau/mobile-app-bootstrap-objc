@@ -4,11 +4,11 @@
 Provides an early look at example code for how to embed Tableau vizzes inside of a native iOS app.
 
 ## Prerequisites
-At the moment, the Mobile App Bootstrap is only supported on iOS.
+This objective-c version of the Mobile App Bootstrap only supports iOS.
 
 ## Installation
 
-Pretty straightforward:
+Hopefully straightforward:
 
 1. Install Xcode
 2. Download the code for the app from this [repository](https://github.com/tableau/mobile-app-bootstrap)
@@ -17,6 +17,11 @@ Pretty straightforward:
 
 1. Open `Mobile App Bootstrap.xcodeproj` in Xcode
 2. Choose/click "Run"
+
+This should run the app in a simulator, depending on the scheme set in Xcode. 
+
+In order to run on a physical device, you'll need to adjust the Team signing profile in the Xcode project. From the Xcode project navigator, click the Mobile App Bootstrap project. Within the project info, click the Mobile App Bootstrap target, choose the General tab, and set a Team in the Signing section. This starts to get into app distribution, and Apple has extensive documentation with both a [Quick Start](https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppStoreDistributionTutorial/Introduction/Introduction.html) and a [more detailed guide](https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppDistributionGuide/Introduction/Introduction.html).
+
 
 # Project Layout
 
