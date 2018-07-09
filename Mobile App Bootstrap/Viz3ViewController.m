@@ -20,7 +20,7 @@
 	NSURL *url = [NSURL URLWithString:@"https://public.tableau.com/views/10_0SuperstoreSales/Overview?:embed=y&:tooltip=n&:toolbar=n&:showVizHome=no"];
     
     webViewDelegate = [[WebViewDelegate alloc] init];
-    self.webView.delegate = webViewDelegate;
+    self.webView.navigationDelegate = webViewDelegate;
 	
     [self.webView loadRequest:[NSURLRequest requestWithURL: url]];
 }

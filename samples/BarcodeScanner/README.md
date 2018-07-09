@@ -36,7 +36,7 @@ For added flavor, try:
 Change `https://public.tableau.com` to your internal server.
 
 `Viz1ViewController.m`
-Change the viz URL to point to your own viz. Be sure to change the URL query parameters to match your field containing barcode values.
+Change the viz URL to point to your own viz. Be sure to change the URL query parameters to match your field containing barcode values. Note: The viz URL currently points to a viz that no longer exists on Tableau Public; sorry about that, we'll fix it soon.
 
 `HomeViewController.m`  
 The method `parseValidBarCodeFromScannedString` contains some logic to sanity-check the barcode. This check could take place here or in `Viz1ViewController`. The string returned from the barcode scanner could be literally anything (letters, numbers, symbols, emojis, URLs, javascript, etc.), so it needs to be sanitized.

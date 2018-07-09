@@ -6,10 +6,10 @@
 //  Copyright © 2016 Tableau. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <WebKit/WebKit.h>
 
 @interface Viz1ViewController : UIViewController
 
-@property (strong, nonatomic) IBOutlet UIWebView *webView;
+@property (strong, nonatomic) IBOutlet WKWebView *webView;
 
 @end

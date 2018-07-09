@@ -28,7 +28,7 @@
 
     // Set up our WebViewDelegate.
 	webViewDelegate = [[WebViewDelegate alloc] init];
-	self.webView.delegate = webViewDelegate;
+	self.webView.navigationDelegate = webViewDelegate;
 	
     // If we've got a barcode from earlier, load it here.
     if (barCodeToLoad != nil) {

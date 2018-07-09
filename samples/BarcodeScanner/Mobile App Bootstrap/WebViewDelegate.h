@@ -6,9 +6,9 @@
 //  Copyright © 2016 Tableau. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <WebKit/WebKit.h>
 
 
-@interface WebViewDelegate : NSObject<UIWebViewDelegate>
+@interface WebViewDelegate : NSObject<WKNavigationDelegate>
 
 @end

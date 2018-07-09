@@ -25,7 +25,7 @@ In order to run on a physical device, you'll need to adjust the Team signing pro
 
 # Project Layout
 
-The app is meant to be as simple as possible: a UITabBarController with 4 UIViewControllers, each containing a UIWebView. The UIViewControllers are separated into their own classes in this sample. The Home WebView opens a local web page bundled in the app, while the other 3 WebViews open visualizations hosted on Tableau Public.
+The app is meant to be as simple as possible: a UITabBarController with 4 UIViewControllers, each containing a WKWebView. The UIViewControllers are separated into their own classes in this sample. The Home WebView opens a local web page bundled in the app, while the other 3 WebViews open visualizations hosted on Tableau Public.
 
 Tableau Connected Clients are used, with a modified version of the Connected Clients library. Once this sample app is farther along (see Limitations, below), the modifications to the Connected Clients library will be submitted to its repo.
 
@@ -63,8 +63,6 @@ In this sample, Sign In happen inside the same viz as the WebView...this might n
 # Future Plans
 
 * Address the Limitations above
-
-* Show how WkWebView could be used instead of UIWebView, for better visualization and memory performance.
 
 * Anything else you'd like to see? Please get in touch with us through the [Tableau Developer Community](developer.tableau.com)!
 

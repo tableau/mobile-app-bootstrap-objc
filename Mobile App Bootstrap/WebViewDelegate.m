@@ -11,12 +11,14 @@
 
 @implementation WebViewDelegate
 
-- (void)webViewDidFinishLoad:(UIWebView *)webView {
-	if ((webView != nil) && (webView.request != nil) && (webView.request.URL != nil)) {
+# pragma mark WKNavigationDelegate
 
+- (void)webView:(WKWebView *)webView didFinishNavigation:(WKNavigation *)navigation; {
+    if ((webView != nil) && (webView.URL != nil)) {
+        
         // Create tokens if needed; this will check our cookies before requesting.
-        [TokenManager createTokensIfNeeded:webView.request.URL];
-	}
+        [TokenManager createTokensIfNeeded:webView.URL];
+    }
 }
 
 @end

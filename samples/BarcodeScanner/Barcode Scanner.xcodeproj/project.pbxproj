@@ -16,6 +16,7 @@
 		C9694B0E1DB98B4B00DDCF0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9694B0C1DB98B4B00DDCF0C /* Main.storyboard */; };
 		C9694B101DB98B4B00DDCF0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9694B0F1DB98B4B00DDCF0C /* Assets.xcassets */; };
 		C9694B131DB98B4B00DDCF0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9694B111DB98B4B00DDCF0C /* LaunchScreen.storyboard */; };
+		C96FAC6B20F03EC000B6C65B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C96FAC6A20F03EC000B6C65B /* WebKit.framework */; };
 		C9DD86AA1F6B2D8F007657D9 /* TableauOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DD86A91F6B2D8F007657D9 /* TableauOAuth.m */; };
 		C9FEF89C1F6B58AE004DD2AB /* MTBBarcodeScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FEF89B1F6B58AE004DD2AB /* MTBBarcodeScanner.m */; };
 /* End PBXBuildFile section */
@@ -37,6 +38,7 @@
 		C9694B0F1DB98B4B00DDCF0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9694B121DB98B4B00DDCF0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9694B141DB98B4B00DDCF0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C96FAC6A20F03EC000B6C65B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		C98EDFF81DCB119E00AC2E29 /* Barcode Scanner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Barcode Scanner.entitlements"; sourceTree = "<group>"; };
 		C9DD86A81F6B2D8F007657D9 /* TableauOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableauOAuth.h; path = "../../../mobile-connected-client/src/ios/TableauOAuth.h"; sourceTree = "<group>"; };
 		C9DD86A91F6B2D8F007657D9 /* TableauOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableauOAuth.m; path = "../../../mobile-connected-client/src/ios/TableauOAuth.m"; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C96FAC6B20F03EC000B6C65B /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +72,7 @@
 			children = (
 				C9694AFF1DB98B4B00DDCF0C /* Mobile App Bootstrap */,
 				C9694AFE1DB98B4B00DDCF0C /* Products */,
+				C96FAC6920F03EC000B6C65B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +117,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C96FAC6920F03EC000B6C65B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C96FAC6A20F03EC000B6C65B /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C9DD86A71F6B2D6B007657D9 /* Connected Client */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,7 +160,7 @@
 		C9694AF51DB98B4B00DDCF0C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Tableau;
 				TargetAttributes = {
 					C9694AFC1DB98B4B00DDCF0C = {
@@ -241,15 +253,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -275,7 +295,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -292,15 +312,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -319,7 +347,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -334,7 +362,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Mobile App Bootstrap/Barcode Scanner.entitlements";
 				DEVELOPMENT_TEAM = QJ4XPRK37C;
 				INFOPLIST_FILE = "Mobile App Bootstrap/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tableau.rtheis.Barcode-Scanner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -348,7 +376,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Mobile App Bootstrap/Barcode Scanner.entitlements";
 				DEVELOPMENT_TEAM = QJ4XPRK37C;
 				INFOPLIST_FILE = "Mobile App Bootstrap/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tableau.rtheis.Barcode-Scanner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
