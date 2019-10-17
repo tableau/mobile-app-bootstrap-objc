@@ -17,7 +17,7 @@
     // The field with the barcode is named "MRN (Scanning Field)" in our viz, and we want to filter based on this field.
     // So we send field=value as a query parameter.
     // Note the %20, %28, and %29 in place of spaces and parentheses in the field name, as the field name has to be urlencoded.
-    NSString *baseURLString = @"https://public.tableau.com/shared/PWRZGPFSD?:embed=y&:tooltip=n&:toolbar=n&:showVizHome=no&MRN%20%28Scanning%20Field%29=";
+    NSString *baseURLString = @"https://public.tableau.com/views/Hackathon_15711602536340/Dashboard1?:embed=y&:tooltip=n&:toolbar=n&:showVizHome=no&MRN%20%28Scanning%20Field%29=";
 
     // Save this in case we're asked to load a barcode before we're ready.
     NSString *barCodeToLoad;
